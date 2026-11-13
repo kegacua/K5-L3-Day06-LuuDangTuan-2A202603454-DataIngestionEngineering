@@ -1,0 +1,285 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Tình trạng thiếu điện ở miền Bắc Việt Nam trong tháng 5 và tháng 6 năm 2023 gây tổn thất ước tính bao nhiêu phần trăm GDP?",
+    "expected_answer": "Tình trạng mất điện luân phiên / thiếu điện liên tục ở miền Bắc trong tháng 5–6/2023 làm gián đoạn sản xuất, ước tính gây tổn thất khoảng 0,3% GDP.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 22,
+    "evidence_quote": "gây ảnh hưởng đến miền Bắc trong tháng 5 và tháng 6 năm 2023, làm sản xuất bị gián đoạn, ước tính gây tác động làm giảm 0,3% GDP",
+    "alternative_golds": [
+      {
+        "source_id": "wb-diemlai-2023-08",
+        "page": 11,
+        "evidence_quote": "tình trạng thiếu điện liên tục ảnh hưởng đến miền Bắc Việt Nam trong tháng 05 và tháng 06 năm 2023, làm gián đoạn các hoạt động kinh tế với tổn thất ước tính ở mức 0,3% GDP."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Nhu cầu tài chính phát sinh thêm để Việt Nam thực hiện lộ trình phát thải ròng bằng không vào năm 2050 và chống chịu biến đổi khí hậu giai đoạn 2022–2040 được ước tính là bao nhiêu, và đầu tư công cần đảm nhận tỷ trọng nào?",
+    "expected_answer": "Tổng nhu cầu tài chính ước tính khoảng 701 tỷ US$ giai đoạn 2022–2040 (tương đương 6,8% GDP mỗi năm), trong đó đầu tư công phải chiếm trên một phần ba tổng nhu cầu vốn, tương đương 2,4% GDP.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 17,
+    "evidence_quote": "lộ trình giảm thải các-bon và nâng cao khả năng chống chịu có thể lên đến khoảng 701 tỷ US$ trong giai đoạn 2022- 2040, tương đương 6,8% GDP mỗi năm.",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "Vì sao việc dồn phần lớn ngân sách giao thông cho hạ tầng nông thôn do địa phương quản lý lại làm suy giảm năng lực kết nối chiến lược và đẩy chi phí vận tải lên cao?",
+    "expected_answer": "Khoảng 75% chi đầu tư giao thông tập trung vào đường nông thôn địa phương trong bối cảnh ngân sách hạn chế đã làm chậm các dự án chiến lược quốc gia, khiến mật độ cao tốc thấp nhất khu vực, chi phí vận tải đường bộ cao nhất, đường sắt bị lãng quên và kết nối đa phương thức yếu.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 41,
+    "evidence_quote": "tập trung chủ yếu cho hạ tầng giao thông nông thôn (75%), do các địa phương quản lý. Trong điều kiện ngân sách hạn chế, đầu tư tập trung theo hướng đó gây ảnh hưởng đến triển khai các công trình đầu tư có tầm quan trọng chiến lược quốc gia.",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Hệ thống thông tin quản lý đầu tư nguồn Ngân sách Nhà nước (SBIMIS) thu thập dữ liệu của bao nhiêu dự án và gặp những bất cập gì về cập nhật cũng như liên thông kho bạc?",
+    "expected_answer": "SBIMIS thu thập thông tin phân bổ và thực hiện cho trên 41.000 dự án toàn quốc (tỷ lệ theo dõi, kiểm tra, đánh giá năm 2022 chỉ đạt 47,3%, 25,6% và 39,2%), nhưng số liệu chưa đầy đủ, mức tuân thủ cập nhật thấp và chưa liên thông với hệ thống quản lý ngân sách và kho bạc TABMIS.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 48,
+    "evidence_quote": "Hệ thống thông tin quản lý đầu tư nguồn Ngân sách Nhà nước (SBIMIS) được Bộ KH&ĐT xây dựng năm 2017 đến nay đã thu thập được thông tin về phân bổ vốn đầu tư và thực hiện cho trên 41.000 dự án trên toàn quốc",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Vì sao việc lập các ban chỉ đạo và hội đồng điều phối vùng từ năm 2002 đến 2020 vẫn chưa thể giải quyết bài toán đầu tư liên tỉnh theo Luật Ngân sách Nhà nước?",
+    "expected_answer": "Chỉ lập hội đồng điều phối vùng chưa giải quyết được vấn đề nếu chưa gỡ bỏ rào cản pháp lý và tài chính, cụ thể Luật NSNN (Điều 9) cấm điều chuyển vốn đầu tư giữa các tỉnh ngay cả khi các bên cùng thấy rõ lợi ích liên tỉnh.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 49,
+    "evidence_quote": "nếu chỉ có hội đồng điều phối vùng thì chưa giải quyết được những thách thức đang tồn tại nếu chưa xử lý được những hạn chế về pháp lý và tài chính cũng như những rào cản khác",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Khi nhu cầu tín dụng vẫn ở mức thấp dù lãi suất đã giảm, việc cắt giảm thêm lãi suất chính sách đối mặt với hạn chế và rủi ro nào?",
+    "expected_answer": "Cắt giảm lãi suất thêm nữa chưa chắc tạo được hiệu ứng thúc đẩy tăng trưởng tín dụng như mong muốn khi cầu tín dụng yếu, đồng thời còn nới rộng chênh lệch lãi suất với thị trường quốc tế và gây áp lực lên tỷ giá.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 14,
+    "evidence_quote": "Vì nhu cầu tín dụng vẫn tiếp tục ở mức thấp mặc dù lãi suất đã giảm, việc cắt giảm lãi suất thêm nữa chưa chắc đã đem lại hiệu ứng mong muốn nhằm thúc đẩy tăng trưởng tín dụng. Bên cạnh đó, cắt giảm lãi suất sẽ làm tăng chênh lệch lãi suất với các thị trường trên toàn cầu, có khả năng gây áp lực cho tỷ giá.",
+    "alternative_golds": [
+      {
+        "source_id": "wb-diemlai-2023-08",
+        "page": 36,
+        "evidence_quote": "Vì nhu cầu tín dụng vẫn tiếp tục ở mức thấp mặc dù lãi suất đã giảm, việc cắt giảm lãi suất thêm nữa chưa chắc đã đem lại hiệu ứng mong muốn nhằm thúc đẩy tăng trưởng tín dụng. Bên cạnh đó, cắt giảm lãi suất sẽ làm tăng chênh lệch lãi suất với các thị trường trên toàn cầu, có khả năng gây áp lực cho tỷ giá."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Theo đánh giá về nợ xấu ngân hàng liên quan đến việc ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB), tỷ lệ nợ xấu toàn hệ thống và mức nợ xấu gộp (tính cả nợ tái cơ cấu và VAMC) lần lượt là bao nhiêu?",
+    "expected_answer": "Nợ xấu toàn hệ thống tăng từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023 chủ yếu do ghi nhận nợ xấu của SCB, và tổng nợ được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay tái cơ cấu và nợ tại VAMC.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 15,
+    "evidence_quote": "Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023, theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC).",
+    "alternative_golds": [
+      {
+        "source_id": "wb-diemlai-2024-08",
+        "page": 31,
+        "evidence_quote": "Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC)."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "Tại sao quy định giới hạn danh mục đầu tư của Bảo hiểm Xã hội (BHXH) vào công cụ nợ Chính phủ lại làm kém hiệu quả chức năng định giá và thanh khoản thị trường trái phiếu?",
+    "expected_answer": "Do bị giới hạn vào nợ Chính phủ và ngân hàng nhà nước nên BHXH trở thành nhà đầu tư nội ngành mua-nắm giữ ngay cả khi lợi suất thấp và bị hạn chế tham gia giao dịch thứ cấp, dẫn tới thanh khoản thứ cấp yếu, chênh lệch giá sơ cấp–thứ cấp và làm méo đường cong lợi suất tham chiếu.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 46,
+    "evidence_quote": "việc tập trung vào các nhà đầu tư \"mua và nắm giữ\" như BHXH có nghĩa là giao dịch trên thị trường thứ cấp sẽ kém sôi động và do đó thiếu thông tin về giá cả.",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Thị trường quỹ đầu tư của Việt Nam đạt giá trị tài sản ròng (NAV) bao nhiêu vào cuối năm 2023 và quy mô theo GDP đứng ở mức nào so với Thái Lan và Ma-lay-xia?",
+    "expected_answer": "Cuối năm 2023, giá trị tài sản ròng (NAV) của 107 quỹ đạt 68 ngàn tỷ đồng (2,7 tỷ đô la Mỹ), mới tương đương 0,7% GDP, rất nhỏ so với 29% GDP ở Thái Lan và 34% GDP ở Ma-lay-xia.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 53,
+    "evidence_quote": "Ở thời điểm cuối năm 2023, giá trị tài sản ròng (NAV) đạt 68 ngàn tỷ đồng (2,7 tỷ đô la Mỹ, Hình 2.15).",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question_type": "conditional_exception",
+    "question": "Mức xử phạt hành chính tối đa từng áp dụng cho vi phạm công bố thông tin trên thị trường vốn là bao nhiêu và hạn chế thực thi nào khiến chế tài đó chưa đủ răn đe?",
+    "expected_answer": "Mức phạt tối đa trước đây chỉ là 100 triệu đồng (4.350 USD), chưa đủ sức răn đe để thay đổi hành vi trước khi các vụ gian lận trái phiếu doanh nghiệp liên quan bất động sản và ngân hàng dẫn đến xử lý hình sự khắt khe.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 58,
+    "evidence_quote": "Trước đây, mức phạt cho vi phạm chưa đủ tính răn đe để làm thay đổi hành vi cụ thể. Chẳng hạn, mức phạt tối đa cho vi phạm yêu cầu công bố thông tin là 100 triệu đồng (4.350 đô la Mỹ).",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question_type": "paraphrased",
+    "question": "Hiện tượng doanh nghiệp đẩy sớm đơn hàng xuất đi (frontloading) sang Hoa Kỳ mang lại kết quả xuất khẩu ra sao nhưng vì sao triển vọng sản lượng chế biến, chế tạo sắp tới lại có tín hiệu chững lại?",
+    "expected_answer": "Đẩy sớm đơn hàng giúp xuất khẩu sang Hoa Kỳ tăng 28,3% và sản lượng chế biến, chế tạo tăng 14,2% vào tháng 6/2025, nhưng số lượng đơn hàng xuất khẩu mới đã giảm từ tháng 11/2024 và giảm tiếp từ tháng 4/2025 do bất định chính sách thương mại.",
+    "gold_source_id": "wb-diemlai-2025-09",
+    "gold_page": 11,
+    "evidence_quote": "số lượng đơn hàng xuất khẩu mới lại giảm kể từ tháng 11/2024 và tiếp tục giảm thêm từ tháng 4/2025 do bất định về chính sách thương mại",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question_type": "direct",
+    "question": "Chi tiêu cho nghiên cứu và phát triển (R&D) của khu vực doanh nghiệp tại Việt Nam đạt bao nhiêu phần trăm GDP và hệ quả gì phát sinh đối với đổi mới sáng tạo nội sinh?",
+    "expected_answer": "Chi tiêu R&D của doanh nghiệp ở Việt Nam chỉ đạt 0,2% GDP (rất thấp so với 1,7% ở Trung Quốc và 3,6% ở Hàn Quốc), tạo 'lực kéo' yếu cho nhân tài trình độ cao và khiến hầu hết doanh nghiệp vẫn phụ thuộc công nghệ nhập khẩu thay vì R&D gốc.",
+    "gold_source_id": "wb-diemlai-2025-09",
+    "gold_page": 62,
+    "evidence_quote": "Chi tiêu của doanh nghiệp cho R&D ở Việt Nam chỉ đạt 0,2% GDP, thấp hơn nhiều so với mức 1,7% ở Trung Quốc và 3,6% ở Hàn Quốc.",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "Tốc độ tăng trưởng GDP trong nửa đầu năm đạt bao nhiêu phần trăm và kim ngạch xuất khẩu, nhập khẩu hàng hóa thay đổi như thế nào?",
+    "expected_answer": "Trong nửa đầu năm 2024, GDP tăng trưởng 6,4% so cùng kỳ, với kim ngạch xuất khẩu và nhập khẩu hàng hóa tăng lần lượt 16,9% và 17% so cùng kỳ.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 13,
+    "evidence_quote": "GDP của Việt Nam tăng trưởng 6.4% trong nửa đầu năm 2024 (so cùng kỳ năm trước), cao hơn mức tăng trưởng 5% trong nửa đầu năm 2023",
+    "alternative_golds": [
+      {
+        "source_id": "wb-diemlai-2024-08",
+        "page": 20,
+        "evidence_quote": "GDP của Việt Nam tăng trưởng 6.4% (so với cùng kỳ năm trước) trong nửa đầu năm 2024 cao hơn so với mức 5% trong năm 2023"
+      }
+    ],
+    "filter": {
+      "year": 2024
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "Ngân sách Nhà nước ghi nhận thặng dư bao nhiêu phần trăm GDP trong nửa đầu năm, và cán cân thực thu so với thực chi theo dự toán ra sao?",
+    "expected_answer": "Ngân sách Nhà nước thặng dư 3,9% GDP trong nửa đầu năm 2025 (cân đối cơ bản đạt 4,8% GDP) do tỷ lệ thực thu so dự toán đạt 67,7% cao hơn nhiều so với mức giải ngân chi 41,9% dự toán.",
+    "gold_source_id": "wb-diemlai-2025-09",
+    "gold_page": 34,
+    "evidence_quote": "Ngân sách Nhà nước thặng dư trong nửa đầu năm 2025, lên đến 3,9% GDP, gần tương đương với mức thặng dư của năm trước (4,1%)",
+    "alternative_golds": [],
+    "filter": {
+      "year": 2025,
+      "section": "kinh_te_vi_mo"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "Tăng trưởng doanh số bán lẻ và mức thu nhập bình quân trong nửa đầu năm phản ánh điều gì về niềm tin và chi tiêu tiêu dùng tư nhân?",
+    "expected_answer": "Tăng trưởng doanh số bán lẻ giảm xuống 10,9% so cùng kỳ trong nửa đầu năm 2023 (giảm liên tục từ 12,8% tháng 1 xuống 6,5% tháng 6) và thu nhập bình quân chững ở mức 6,3 triệu đồng, cho thấy niềm tin người tiêu dùng mong manh.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 22,
+    "evidence_quote": "Tăng trưởng doanh số bán lẻ - là chỉ tiêu gián tiếp về tiêu dùng tư nhân - giảm còn 10,9% so cùng kỳ trong nửa đầu năm 2023",
+    "alternative_golds": [],
+    "filter": {
+      "year": 2023,
+      "section": "kinh_te_vi_mo"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question_type": "direct",
+    "question": "Để đẩy nhanh tiến độ triển khai các dự án đầu tư công lớn thường bị ách tắc về đất đai và đền bù, báo cáo chuyên đề về đầu tư công đưa ra giải pháp thực tiễn nào?",
+    "expected_answer": "Giải pháp mang tính thực tiễn là bóc tách khâu giải phóng mặt bằng và tái định cư ra khỏi dự án đầu tư, nhất là đối với các dự án quy mô lớn.",
+    "gold_source_id": "wb-diemlai-2023-08",
+    "gold_page": 53,
+    "evidence_quote": "Việc bóc tách khâu giải phóng mặt bằng và tái định cư ra khỏi dự án đầu tư có thể giúp đẩy nhanh tiến độ triển khai, nhất là đối với các dự án lớn.",
+    "alternative_golds": [
+      {
+        "source_id": "wb-diemlai-2023-08",
+        "page": 17,
+        "evidence_quote": "Giải pháp mang tính thực tiễn là bóc tách giải phóng mặt bằng / tái định cư ra khỏi dự án đầu tư, nhất là với các dự án lớn."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question_type": "paraphrased",
+    "question": "Vì sao lượng cổ phiếu sẵn có để đầu tư trên thị trường chứng khoán Việt Nam vẫn nhỏ và dễ biến động mạnh dù đã có 1.632 doanh nghiệp niêm yết hoặc đăng ký giao dịch?",
+    "expected_answer": "Về phía cung, quy mô doanh nghiệp niêm yết còn nhỏ và lượng cổ phiếu có thể đầu tư bị thu hẹp bởi giới hạn tỷ lệ sở hữu nước ngoài ở một số ngành; về phía cầu, thị trường bị chi phối tới 89% giá trị giao dịch bởi nhà đầu tư cá nhân ngắn hạn mang tâm lý bầy đàn.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 49,
+    "evidence_quote": "mặc dù có đến 1.632 doanh nghiệp niêm yết hoặc đăng ký giao dịch, nhưng số lượng cổ phiếu có thể đầu tư lại tương đối nhỏ.",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question_type": "conditional_exception",
+    "question": "Sự thiếu hụt cơ sở vật chất 'từ phòng thí nghiệm đến nhà máy' khiến các nhóm thiết kế vi mạch bán dẫn trong nước phải xử lý nguyên mẫu như thế nào và chịu hệ quả gì về chi phí, thời gian?",
+    "expected_answer": "Do thiếu dây chuyền chế tác hoặc fab R&D dùng chung trong nước, các nhóm thiết kế vi mạch phải gửi nguyên mẫu ra xưởng ở nước ngoài (như Đài Loan hoặc Hàn Quốc), vừa tốn kém vừa kéo dài chu trình lặp mất từ 6 đến 10 tháng để chế tạo và kiểm thử.",
+    "gold_source_id": "wb-diemlai-2025-09",
+    "gold_page": 66,
+    "evidence_quote": "các nhóm thiết kế vi mạch trong nước phải gửi thiết kế nguyên mẫu ra nước ngoài, thường là các xưởng sản xuất ở Đài Loan (Trung Quốc) hoặc Hàn Quốc, để chế tạo. Điều này vừa tốn kém, vừa làm chậm chu trình lặp, vì thiết kế có thể phải mất từ 6 đến 10 tháng mới được chế tạo và kiểm thử ở nước ngoài",
+    "alternative_golds": [],
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question_type": "metadata_filter",
+    "question": "Lạm phát CPI và lạm phát cơ bản diễn biến như thế nào vào tháng 6, và tác nhân nào đóng góp lớn nhất vào đà tăng của lạm phát toàn phần?",
+    "expected_answer": "Tháng 6/2024, lạm phát CPI tăng lên 4,3% do giá lương thực thực phẩm tăng (+0,8 điểm % từ tháng 1/2024 khi giá lợn hơi tăng mạnh do bệnh tả lợn châu Phi), trong khi lạm phát cơ bản tiếp tục giảm xuống 2,6%.",
+    "gold_source_id": "wb-diemlai-2024-08",
+    "gold_page": 15,
+    "evidence_quote": "Lạm phát tăng lên 4,3% (so với cùng kỳ năm trước) vào tháng 6/2024 do giá lương thực thực phẩm bị đẩy lên. Giá lương thực thực phẩm gia tăng đóng góp lớn nhất vào lạm phát CPI (+0,8 điểm phần trăm kể từ tháng 1/2024) khi giá lợn hơi tăng mạnh do bệnh tả lợn châu Phi bùng phát.",
+    "alternative_golds": [],
+    "filter": {
+      "year": 2024,
+      "section": "tong_luoc"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question_type": "metadata_filter",
+    "question": "Ngân hàng Nhà nước đã điều chỉnh tỷ giá trung tâm ở mức nào và rút bao nhiêu dự trữ ngoại hối để ứng phó với áp lực giảm giá đồng nội tệ?",
+    "expected_answer": "NHNN hạ giá qua tỷ giá trung tâm 3,1% vào tháng 6/2025 (gồm đợt hạ 2,2% tháng 5) và rút 1 tỷ US$ dự trữ, làm giảm dự trữ ngoại hối từ 79,2 tỷ US$ cuối năm 2024 xuống 78,1 tỷ US$ vào cuối tháng 3/2025 (2,4 tháng nhập khẩu).",
+    "gold_source_id": "wb-diemlai-2025-09",
+    "gold_page": 34,
+    "evidence_quote": "NHNN đã hạ giá đồng tiền qua tỷ giá trung tâm ở mức 3,1% vào tháng 6/2025 (so cùng kỳ), bao gồm một đợt hạ giá 2,2% vào tháng 05, là đợt điều chỉnh tỷ giá lớn nhất kể từ tháng 12/2022",
+    "alternative_golds": [],
+    "filter": {
+      "year": 2025
+    }
+  }
+]

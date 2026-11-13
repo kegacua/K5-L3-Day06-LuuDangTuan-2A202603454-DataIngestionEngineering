@@ -1,0 +1,143 @@
+{
+  "A": {
+    "dev": {
+      "n": 15,
+      "hit1_count": 10,
+      "hit1_rate": 0.6666666666666666,
+      "hit1_str": "10/15 (66.7%)",
+      "hit3_count": 13,
+      "hit3_rate": 0.8666666666666667,
+      "hit3_str": "13/15 (86.7%)",
+      "page_hit1_count": 12,
+      "page_hit3_count": 14,
+      "mrr3": 0.7666666666666667,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    },
+    "test": {
+      "n": 5,
+      "hit1_count": 3,
+      "hit1_rate": 0.6,
+      "hit1_str": "3/5 (60.0%)",
+      "hit3_count": 5,
+      "hit3_rate": 1.0,
+      "hit3_str": "5/5 (100.0%)",
+      "page_hit1_count": 4,
+      "page_hit3_count": 5,
+      "mrr3": 0.8,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    },
+    "all": {
+      "n": 20,
+      "hit1_count": 13,
+      "hit1_rate": 0.65,
+      "hit1_str": "13/20 (65.0%)",
+      "hit3_count": 18,
+      "hit3_rate": 0.9,
+      "hit3_str": "18/20 (90.0%)",
+      "page_hit1_count": 16,
+      "page_hit3_count": 19,
+      "mrr3": 0.775,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    }
+  },
+  "B": {
+    "dev": {
+      "n": 15,
+      "hit1_count": 13,
+      "hit1_rate": 0.8666666666666667,
+      "hit1_str": "13/15 (86.7%)",
+      "hit3_count": 15,
+      "hit3_rate": 1.0,
+      "hit3_str": "15/15 (100.0%)",
+      "page_hit1_count": 13,
+      "page_hit3_count": 15,
+      "mrr3": 0.9333333333333333,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    },
+    "test": {
+      "n": 5,
+      "hit1_count": 3,
+      "hit1_rate": 0.6,
+      "hit1_str": "3/5 (60.0%)",
+      "hit3_count": 5,
+      "hit3_rate": 1.0,
+      "hit3_str": "5/5 (100.0%)",
+      "page_hit1_count": 3,
+      "page_hit3_count": 5,
+      "mrr3": 0.7333333333333334,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    },
+    "all": {
+      "n": 20,
+      "hit1_count": 16,
+      "hit1_rate": 0.8,
+      "hit1_str": "16/20 (80.0%)",
+      "hit3_count": 20,
+      "hit3_rate": 1.0,
+      "hit3_str": "20/20 (100.0%)",
+      "page_hit1_count": 16,
+      "page_hit3_count": 20,
+      "mrr3": 0.8833333333333332,
+      "filter_applicable": 0,
+      "filter_compliant": 0,
+      "filter_compliance_str": "N/A"
+    }
+  },
+  "C": {
+    "dev": {
+      "n": 15,
+      "hit1_count": 14,
+      "hit1_rate": 0.9333333333333333,
+      "hit1_str": "14/15 (93.3%)",
+      "hit3_count": 15,
+      "hit3_rate": 1.0,
+      "hit3_str": "15/15 (100.0%)",
+      "page_hit1_count": 14,
+      "page_hit3_count": 15,
+      "mrr3": 0.9666666666666667,
+      "filter_applicable": 3,
+      "filter_compliant": 3,
+      "filter_compliance_str": "3/3 (100.0%)"
+    },
+    "test": {
+      "n": 5,
+      "hit1_count": 5,
+      "hit1_rate": 1.0,
+      "hit1_str": "5/5 (100.0%)",
+      "hit3_count": 5,
+      "hit3_rate": 1.0,
+      "hit3_str": "5/5 (100.0%)",
+      "page_hit1_count": 5,
+      "page_hit3_count": 5,
+      "mrr3": 1.0,
+      "filter_applicable": 2,
+      "filter_compliant": 2,
+      "filter_compliance_str": "2/2 (100.0%)"
+    },
+    "all": {
+      "n": 20,
+      "hit1_count": 19,
+      "hit1_rate": 0.95,
+      "hit1_str": "19/20 (95.0%)",
+      "hit3_count": 20,
+      "hit3_rate": 1.0,
+      "hit3_str": "20/20 (100.0%)",
+      "page_hit1_count": 19,
+      "page_hit3_count": 20,
+      "mrr3": 0.975,
+      "filter_applicable": 5,
+      "filter_compliant": 5,
+      "filter_compliance_str": "5/5 (100.0%)"
+    }
+  }
+}

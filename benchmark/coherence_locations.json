@@ -1,0 +1,92 @@
+[
+  {
+    "loc_id": "L01",
+    "document_id": "wb-diemlai-2023-08",
+    "page": 11,
+    "section": "tong_luoc",
+    "layout_type": "two_column_with_footnotes",
+    "description": "Đoạn phân tích tăng trưởng GDP thực H1/2023 giảm còn 3,7% và nguyên nhân xuất khẩu - cầu nội địa",
+    "anchor_phrase": "của Việt Nam giảm còn 3,7%"
+  },
+  {
+    "loc_id": "L02",
+    "document_id": "wb-diemlai-2023-08",
+    "page": 14,
+    "section": "tong_luoc",
+    "layout_type": "two_column_policy_bullet",
+    "description": "Khuyến nghị phối hợp chính sách tài khóa và giới hạn nới lỏng tiền tệ",
+    "anchor_phrase": "chính sách tài khóa nên được thực hiện song hành"
+  },
+  {
+    "loc_id": "L03",
+    "document_id": "wb-diemlai-2023-08",
+    "page": 41,
+    "section": "chuyen_de",
+    "layout_type": "box_text_below_chart",
+    "description": "Hộp 2.1 phân tích chi tiêu giao thông nông thôn 75% và thiếu hụt cao tốc/đường sắt",
+    "anchor_phrase": "Những hạn chế về hạ tầng giao thông"
+  },
+  {
+    "loc_id": "L04",
+    "document_id": "wb-diemlai-2023-08",
+    "page": 48,
+    "section": "chuyen_de",
+    "layout_type": "dense_list_bullet",
+    "description": "Mục theo dõi đánh giá hậu kiểm dự án và bất cập liên thông SBIMIS - TABMIS",
+    "anchor_phrase": "SBIMIS"
+  },
+  {
+    "loc_id": "L05",
+    "document_id": "wb-diemlai-2024-08",
+    "page": 15,
+    "section": "tong_luoc",
+    "layout_type": "single_column_macro_prose",
+    "description": "Đoạn đánh giá chất lượng tài sản ngân hàng, nợ xấu SCB và nợ xấu gộp VAMC 7,9%",
+    "anchor_phrase": "Ngân hàng Thương mại Cổ phần Sài Gòn (SCB)"
+  },
+  {
+    "loc_id": "L06",
+    "document_id": "wb-diemlai-2024-08",
+    "page": 28,
+    "section": "kinh_te_vi_mo",
+    "layout_type": "prose_below_charts",
+    "description": "Đoạn giải thích chênh lệch lãi suất, giá vàng và dòng vốn ra phi chính thức (Lỗi và sai sót)",
+    "anchor_phrase": "làm dòng vốn ròng phi chính thức ra nước ngoài tăng lên"
+  },
+  {
+    "loc_id": "L07",
+    "document_id": "wb-diemlai-2024-08",
+    "page": 46,
+    "section": "chuyen_de",
+    "layout_type": "thematic_prose_with_footnote",
+    "description": "Tác động của việc BHXH là nhà đầu tư nội ngành mua-nắm giữ lên đường cong lợi suất trái phiếu Chính phủ",
+    "anchor_phrase": "nhà đầu tư nội ngành về trái phiếu Chính phủ"
+  },
+  {
+    "loc_id": "L08",
+    "document_id": "wb-diemlai-2025-09",
+    "page": 12,
+    "section": "tong_luoc",
+    "layout_type": "two_column_with_footnotes",
+    "description": "Phân tích nghịch lý thu nhập bình quân tăng (8,2 triệu VND) nhưng tiết kiệm hộ gia đình tăng lên 37,2%",
+    "anchor_phrase": "8,2 triệu VND"
+  },
+  {
+    "loc_id": "L09",
+    "document_id": "wb-diemlai-2025-09",
+    "page": 59,
+    "section": "chuyen_de",
+    "layout_type": "figure_plus_sidebar_column",
+    "description": "So sánh ba cụm ĐMST quốc gia của Việt Nam thiếu cơ sở GDĐH 'mỏ neo' so với năm cụm lớn toàn cầu",
+    "anchor_phrase": "ba cụm ĐMST quốc gia"
+  },
+  {
+    "loc_id": "L10",
+    "document_id": "wb-diemlai-2025-09",
+    "page": 66,
+    "section": "chuyen_de",
+    "layout_type": "clean_thematic_prose",
+    "description": "Điểm nghẽn hạ tầng từ phòng thí nghiệm đến nhà máy đối với thiết kế vi mạch bán dẫn và sinh học",
+    "anchor_phrase": "từ phòng thí nghiệm đến nhà máy"
+  }
+]

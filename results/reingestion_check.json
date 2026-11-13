@@ -1,0 +1,27 @@
+{
+  "synthetic_initial_insert": {
+    "upserted": 3,
+    "deleted_obsolete": 0,
+    "total_strategy_rows": 3
+  },
+  "synthetic_idempotent_repeat": {
+    "upserted": 3,
+    "deleted_obsolete": 0,
+    "total_strategy_rows": 3
+  },
+  "synthetic_shrink_prune_obsolete": {
+    "upserted": 2,
+    "deleted_obsolete": 1,
+    "total_strategy_rows": 2
+  },
+  "synthetic_cleanup_pruned": 2,
+  "real_strategy_a_count_before": 391,
+  "real_strategy_a_reupsert_doc": "wb-diemlai-2023-08",
+  "real_strategy_a_reupsert_result": {
+    "upserted": 122,
+    "deleted_obsolete": 0,
+    "total_strategy_rows": 391
+  },
+  "real_strategy_a_count_after": 391,
+  "passed": true
+}

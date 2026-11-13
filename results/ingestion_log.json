@@ -1,0 +1,1777 @@
+{
+  "summary": {
+    "corpus_name": "Ngân hàng Thế giới — Chuỗi Báo cáo Điểm lại Kinh tế Việt Nam (2023–2025)",
+    "documents": 3,
+    "included_pages": 147,
+    "total_normalized_chars": 424139,
+    "excluded_non_content": 41,
+    "empty_no_text": 8,
+    "errors": 0
+  },
+  "page_logs": [
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 1,
+      "status": "excluded_non_content",
+      "reason": "Bìa trước",
+      "raw_chars": 173,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 2,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 3,
+      "status": "excluded_non_content",
+      "reason": "Trang tên báo cáo",
+      "raw_chars": 61,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 4,
+      "status": "excluded_non_content",
+      "reason": "Thông tin bản quyền và miễn trừ trách nhiệm",
+      "raw_chars": 1494,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 5,
+      "status": "excluded_non_content",
+      "reason": "Mục lục",
+      "raw_chars": 1665,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 6,
+      "status": "excluded_non_content",
+      "reason": "Danh mục hình",
+      "raw_chars": 1895,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 7,
+      "status": "excluded_non_content",
+      "reason": "Danh mục bảng và từ viết tắt",
+      "raw_chars": 1112,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 8,
+      "status": "excluded_non_content",
+      "reason": "Danh mục từ viết tắt",
+      "raw_chars": 567,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 9,
+      "status": "excluded_non_content",
+      "reason": "Lời cảm ơn",
+      "raw_chars": 1338,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 10,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn mục Tổng quan",
+      "raw_chars": 11,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 11,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3657,
+      "normalized_chars": 3709
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 12,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3958,
+      "normalized_chars": 4016
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 13,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3539,
+      "normalized_chars": 3629
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 14,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3906,
+      "normalized_chars": 3970
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 15,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3349,
+      "normalized_chars": 3401
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 16,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 4359,
+      "normalized_chars": 4428
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 17,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3881,
+      "normalized_chars": 3936
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 18,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 1307,
+      "normalized_chars": 1307
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 19,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 1",
+      "raw_chars": 40,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 20,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2457,
+      "normalized_chars": 2459
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 21,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3196,
+      "normalized_chars": 3215
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 22,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2922,
+      "normalized_chars": 2955
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 23,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 4247,
+      "normalized_chars": 4265
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 24,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2843,
+      "normalized_chars": 2743
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 25,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2741,
+      "normalized_chars": 2747
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 26,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2810,
+      "normalized_chars": 2801
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 27,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 1865,
+      "normalized_chars": 1757
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 28,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2106,
+      "normalized_chars": 2044
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 29,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2701,
+      "normalized_chars": 2648
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 30,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2010,
+      "normalized_chars": 2030
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 31,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3060,
+      "normalized_chars": 3035
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 32,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2742,
+      "normalized_chars": 2775
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 33,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2590,
+      "normalized_chars": 2532
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 34,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 4270,
+      "normalized_chars": 4283
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 35,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3283,
+      "normalized_chars": 3362
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 36,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3741,
+      "normalized_chars": 3765
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 37,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3903,
+      "normalized_chars": 3918
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 38,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2044,
+      "normalized_chars": 2033
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 39,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 2",
+      "raw_chars": 44,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 40,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2914,
+      "normalized_chars": 2900
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 41,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2286,
+      "normalized_chars": 2296
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 42,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3617,
+      "normalized_chars": 3634
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 43,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2652,
+      "normalized_chars": 2660
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 44,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2577,
+      "normalized_chars": 2576
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 45,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3584,
+      "normalized_chars": 3597
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 46,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3127,
+      "normalized_chars": 3224
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 47,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3700,
+      "normalized_chars": 3710
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 48,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 4150,
+      "normalized_chars": 4170
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 49,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3738,
+      "normalized_chars": 3749
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 50,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 4075,
+      "normalized_chars": 4094
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 51,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 4359,
+      "normalized_chars": 4378
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 52,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3567,
+      "normalized_chars": 3582
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 53,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3073,
+      "normalized_chars": 3079
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 54,
+      "status": "excluded_non_content",
+      "reason": "Tài liệu tham khảo (THAM KHẢO)",
+      "raw_chars": 2638,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 55,
+      "status": "excluded_non_content",
+      "reason": "Tài liệu tham khảo (tiếp)",
+      "raw_chars": 1390,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 56,
+      "status": "excluded_non_content",
+      "reason": "Thông tin xuất bản/in ấn",
+      "raw_chars": 303,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 57,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2023-08",
+      "source": "starter/data/wb_diemlai_2023_08.pdf",
+      "page": 58,
+      "status": "excluded_non_content",
+      "reason": "Bìa sau",
+      "raw_chars": 121,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 1,
+      "status": "excluded_non_content",
+      "reason": "Bìa trước",
+      "raw_chars": 248,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 2,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 3,
+      "status": "excluded_non_content",
+      "reason": "Trang tên báo cáo",
+      "raw_chars": 66,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 4,
+      "status": "excluded_non_content",
+      "reason": "Thông tin bản quyền và miễn trừ trách nhiệm",
+      "raw_chars": 1574,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 5,
+      "status": "excluded_non_content",
+      "reason": "Mục lục",
+      "raw_chars": 1832,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 6,
+      "status": "excluded_non_content",
+      "reason": "Mục lục (tiếp)",
+      "raw_chars": 2129,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 7,
+      "status": "excluded_non_content",
+      "reason": "Danh mục hình",
+      "raw_chars": 1930,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 8,
+      "status": "excluded_non_content",
+      "reason": "Danh mục bảng",
+      "raw_chars": 2144,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 9,
+      "status": "excluded_non_content",
+      "reason": "Danh mục từ viết tắt",
+      "raw_chars": 1069,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 10,
+      "status": "excluded_non_content",
+      "reason": "Danh mục từ viết tắt (tiếp)",
+      "raw_chars": 478,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 11,
+      "status": "excluded_non_content",
+      "reason": "Lời cám ơn",
+      "raw_chars": 1487,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 12,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn mục Tổng quan",
+      "raw_chars": 80,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 13,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3136,
+      "normalized_chars": 3157
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 14,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3495,
+      "normalized_chars": 3516
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 15,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3424,
+      "normalized_chars": 3446
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 16,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3090,
+      "normalized_chars": 3177
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 17,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3384,
+      "normalized_chars": 3402
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 18,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3773,
+      "normalized_chars": 3796
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 19,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 1",
+      "raw_chars": 109,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 20,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2698,
+      "normalized_chars": 2697
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 21,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2658,
+      "normalized_chars": 2784
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 22,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2834,
+      "normalized_chars": 2989
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 23,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2244,
+      "normalized_chars": 2309
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 24,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3196,
+      "normalized_chars": 3291
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 25,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3216,
+      "normalized_chars": 3323
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 26,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3108,
+      "normalized_chars": 3220
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 27,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2178,
+      "normalized_chars": 2257
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 28,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3098,
+      "normalized_chars": 3109
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 29,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2400,
+      "normalized_chars": 2526
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 30,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2446,
+      "normalized_chars": 2453
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 31,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2435,
+      "normalized_chars": 2424
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 32,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3112,
+      "normalized_chars": 3148
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 33,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2437,
+      "normalized_chars": 2387
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 34,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3035,
+      "normalized_chars": 3029
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 35,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3722,
+      "normalized_chars": 3741
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 36,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2920,
+      "normalized_chars": 3005
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 37,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3719,
+      "normalized_chars": 3740
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 38,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 2",
+      "raw_chars": 120,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 39,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3604,
+      "normalized_chars": 3628
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 40,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3041,
+      "normalized_chars": 3032
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 41,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2375,
+      "normalized_chars": 2415
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 42,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 1909,
+      "normalized_chars": 1927
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 43,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 1649,
+      "normalized_chars": 1672
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 44,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3378,
+      "normalized_chars": 3511
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 45,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2814,
+      "normalized_chars": 2879
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 46,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3352,
+      "normalized_chars": 3367
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 47,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2331,
+      "normalized_chars": 2394
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 48,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3438,
+      "normalized_chars": 3485
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 49,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3474,
+      "normalized_chars": 3485
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 50,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3170,
+      "normalized_chars": 3193
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 51,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2811,
+      "normalized_chars": 2889
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 52,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2504,
+      "normalized_chars": 2540
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 53,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2281,
+      "normalized_chars": 2272
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 54,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2931,
+      "normalized_chars": 2954
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 55,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2578,
+      "normalized_chars": 2607
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 56,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3785,
+      "normalized_chars": 3806
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 57,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3162,
+      "normalized_chars": 3182
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 58,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2990,
+      "normalized_chars": 3005
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 59,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3639,
+      "normalized_chars": 3658
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 60,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3962,
+      "normalized_chars": 3984
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 61,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 1350,
+      "normalized_chars": 1339
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 62,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 63,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2024-08",
+      "source": "starter/data/wb_diemlai_2024_08.pdf",
+      "page": 64,
+      "status": "excluded_non_content",
+      "reason": "Bìa sau",
+      "raw_chars": 122,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 1,
+      "status": "excluded_non_content",
+      "reason": "Bìa trước",
+      "raw_chars": 233,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 2,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 3,
+      "status": "excluded_non_content",
+      "reason": "Trang tên báo cáo",
+      "raw_chars": 121,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 4,
+      "status": "excluded_non_content",
+      "reason": "Thông tin bản quyền và miễn trừ trách nhiệm",
+      "raw_chars": 2309,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 5,
+      "status": "excluded_non_content",
+      "reason": "Mục lục",
+      "raw_chars": 2244,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 6,
+      "status": "excluded_non_content",
+      "reason": "Danh mục hình",
+      "raw_chars": 2700,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 7,
+      "status": "excluded_non_content",
+      "reason": "Danh mục bảng",
+      "raw_chars": 2461,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 8,
+      "status": "excluded_non_content",
+      "reason": "Danh mục từ viết tắt",
+      "raw_chars": 786,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 9,
+      "status": "excluded_non_content",
+      "reason": "Danh mục từ viết tắt (tiếp)",
+      "raw_chars": 884,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 10,
+      "status": "excluded_non_content",
+      "reason": "Lời cảm ơn",
+      "raw_chars": 1494,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 11,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 2590,
+      "normalized_chars": 2595
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 12,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3225,
+      "normalized_chars": 3250
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 13,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3551,
+      "normalized_chars": 3568
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 14,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 3191,
+      "normalized_chars": 3215
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 15,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 2455,
+      "normalized_chars": 2511
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 16,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 2952,
+      "normalized_chars": 2975
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 17,
+      "status": "included",
+      "section": "tong_luoc",
+      "raw_chars": 1211,
+      "normalized_chars": 1169
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 18,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 1",
+      "raw_chars": 36,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 19,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2117,
+      "normalized_chars": 2143
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 20,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2439,
+      "normalized_chars": 2460
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 21,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2569,
+      "normalized_chars": 2580
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 22,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2184,
+      "normalized_chars": 2184
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 23,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2094,
+      "normalized_chars": 2084
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 24,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 1968,
+      "normalized_chars": 1993
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 25,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2190,
+      "normalized_chars": 2207
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 26,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2483,
+      "normalized_chars": 2511
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 27,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2565,
+      "normalized_chars": 2576
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 28,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2297,
+      "normalized_chars": 2312
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 29,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 1582,
+      "normalized_chars": 1567
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 30,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2370,
+      "normalized_chars": 2377
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 31,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2093,
+      "normalized_chars": 2080
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 32,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2634,
+      "normalized_chars": 2633
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 33,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 1670,
+      "normalized_chars": 1731
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 34,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2529,
+      "normalized_chars": 2539
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 35,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2857,
+      "normalized_chars": 2888
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 36,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3241,
+      "normalized_chars": 3236
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 37,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2557,
+      "normalized_chars": 2545
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 38,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2177,
+      "normalized_chars": 2148
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 39,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 1396,
+      "normalized_chars": 1474
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 40,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3685,
+      "normalized_chars": 3667
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 41,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 3549,
+      "normalized_chars": 3525
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 42,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2465,
+      "normalized_chars": 2448
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 43,
+      "status": "included",
+      "section": "kinh_te_vi_mo",
+      "raw_chars": 2797,
+      "normalized_chars": 2764
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 44,
+      "status": "excluded_non_content",
+      "reason": "Trang ngăn Chương 2",
+      "raw_chars": 121,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 45,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2868,
+      "normalized_chars": 2836
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 46,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2042,
+      "normalized_chars": 2117
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 47,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3595,
+      "normalized_chars": 3570
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 48,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2541,
+      "normalized_chars": 2625
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 49,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2935,
+      "normalized_chars": 2904
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 50,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2933,
+      "normalized_chars": 2955
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 51,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2404,
+      "normalized_chars": 2458
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 52,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2272,
+      "normalized_chars": 2289
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 53,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2769,
+      "normalized_chars": 2835
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 54,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2675,
+      "normalized_chars": 2677
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 55,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3111,
+      "normalized_chars": 3106
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 56,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2563,
+      "normalized_chars": 2595
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 57,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2689,
+      "normalized_chars": 2699
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 58,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2335,
+      "normalized_chars": 2330
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 59,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3032,
+      "normalized_chars": 3014
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 60,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2726,
+      "normalized_chars": 2704
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 61,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2673,
+      "normalized_chars": 2674
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 62,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2182,
+      "normalized_chars": 2222
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 63,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 1701,
+      "normalized_chars": 1686
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 64,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3211,
+      "normalized_chars": 3188
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 65,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2450,
+      "normalized_chars": 2471
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 66,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2407,
+      "normalized_chars": 2375
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 67,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2229,
+      "normalized_chars": 2215
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 68,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3131,
+      "normalized_chars": 3120
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 69,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2924,
+      "normalized_chars": 2903
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 70,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 3293,
+      "normalized_chars": 3290
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 71,
+      "status": "included",
+      "section": "chuyen_de",
+      "raw_chars": 2758,
+      "normalized_chars": 2764
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 72,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 73,
+      "status": "empty_no_text",
+      "reason": "Trang trống (0 ký tự)",
+      "raw_chars": 0,
+      "normalized_chars": 0
+    },
+    {
+      "document_id": "wb-diemlai-2025-09",
+      "source": "starter/data/wb_diemlai_2025_09.pdf",
+      "page": 74,
+      "status": "excluded_non_content",
+      "reason": "Bìa sau",
+      "raw_chars": 183,
+      "normalized_chars": 0
+    }
+  ]
+}

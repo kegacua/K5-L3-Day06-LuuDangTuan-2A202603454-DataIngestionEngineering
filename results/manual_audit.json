@@ -1,0 +1,334 @@
+{
+  "audit_meta": {
+    "scorer": "Lưu Đăng Tuấn (2A202603454)",
+    "scorer_role": "Author / single-rater (self-scored after inspecting exact retrieved chunks, metadata fields, and source page excerpts; author-as-scorer bias explicitly disclosed)",
+    "audited_files": [
+      "results/coherence_samples.json",
+      "results/test_audit_sheet.json",
+      "results/traces.json",
+      "data/manifest.json"
+    ],
+    "pre_locked_benchmark": {
+      "coherence_locations": "benchmark/coherence_locations.json (L01-L10)",
+      "questions": "benchmark/questions.json (q01-q15 dev, q16-q20 test)"
+    }
+  },
+  "chunk_coherence": {
+    "scale_definition": {
+      "0": "Bị cắt giữa ý / thiếu chủ thể làm không hiểu hoặc cắt mất mệnh đề then chốt tại hai đầu",
+      "1": "Hiểu được một phần, vẫn còn thiếu ngữ cảnh hoặc bị cắt câu/từ ở biên chunk hay chen chú thích",
+      "2": "Tự hiểu được và giữ trọn ý chính của vị trí nội dung được kiểm tra"
+    },
+    "samples": [
+      {
+        "loc_id": "L01",
+        "document_id": "wb-diemlai-2023-08",
+        "page": 11,
+        "section": "tong_luoc",
+        "anchor_phrase": "của Việt Nam giảm còn 3,7%",
+        "scores": { "A": 1, "B": 1, "C": 1 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2023-08::p011::c000"],
+          "B": ["wb-diemlai-2023-08::p011::c000"],
+          "C": ["wb-diemlai-2023-08::p011::c000"]
+        },
+        "char_lens": { "A": [1400], "B": [1549], "C": [1549] },
+        "reasons": {
+          "A": "Giữ được bối cảnh toàn cầu và số liệu tăng trưởng GDP thực 3,7% nửa đầu năm 2023, nhưng bị cắt cụt câu cầu trong nước ('...của giai đoạn phục') và cắt ngang chú thích 1 ('...trong Q1-2').",
+          "B": "Giữ trọn chú thích 1 đến hết câu ('...vào Q2-2023.'), tốt hơn A, nhưng vẫn bị ngắt sau '...giai đoạn phục' trước chú thích 1 do chú thích chân cột trong PDF hai cột xen vào giữa câu thân bài khi pypdf gom khối theo tọa độ y.",
+          "C": "Chunk giống hệt B (cùng by_paragraph)."
+        }
+      },
+      {
+        "loc_id": "L02",
+        "document_id": "wb-diemlai-2023-08",
+        "page": 14,
+        "section": "tong_luoc",
+        "anchor_phrase": "chính sách tài khóa nên được thực hiện song hành",
+        "scores": { "A": 0, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2023-08::p014::c002"],
+          "B": ["wb-diemlai-2023-08::p014::c002"],
+          "C": ["wb-diemlai-2023-08::p014::c002"]
+        },
+        "char_lens": { "A": [1399], "B": [1519], "C": [1519] },
+        "reasons": {
+          "A": "Cắt cụt cả hai đầu: mở đầu lưng chừng ('giải ngân đầu tư và đảm bảo hiệu lực thực thi...') thiếu chủ ngữ câu, kết thúc cắt giữa từ ('làm tăng chênh lệch lãi suấ'), làm rớt mệnh đề rủi ro tỷ giá của bằng chứng q06.",
+          "B": "Bắt đầu tròn câu ('Những bước đi đó có thể bao gồm...') và giữ trọn vẹn toàn bộ đoạn an sinh xã hội lẫn gạch đầu dòng tài khóa-tiền tệ đến hết câu '...gây áp lực cho tỷ giá.'.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L03",
+        "document_id": "wb-diemlai-2023-08",
+        "page": 41,
+        "section": "chuyen_de",
+        "anchor_phrase": "Những hạn chế về hạ tầng giao thông",
+        "scores": { "A": 1, "B": 1, "C": 1 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2023-08::p041::c000", "wb-diemlai-2023-08::p041::c001"],
+          "B": ["wb-diemlai-2023-08::p041::c000"],
+          "C": ["wb-diemlai-2023-08::p041::c000"]
+        },
+        "char_lens": { "A": [1400, 1046], "B": [1343], "C": [1343] },
+        "reasons": {
+          "A": "Tiêu đề 'Hộp 2.1' bị tách qua 2 chunk: c000 chứa phần chữ biểu đồ + đầu hộp bị cắt ở '- bằng khoảng'; c001 nhờ overlap giữ được trọn nội dung Hộp 2.1 nhưng mở đầu bằng mảnh cụt ('họa về nhu cầu hạ tầng...').",
+          "B": "Hạn chế thực tế của greedy by_paragraph (max_size=1650): c000 dừng ngay sau dòng tiêu đề 'Hộp 2.1. Những hạn chế về hạ tầng giao thông' (1.343 ký tự), để tiêu đề mồ côi ở cuối c000 còn phần thân hộp đẩy sang c001.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L04",
+        "document_id": "wb-diemlai-2023-08",
+        "page": 48,
+        "section": "chuyen_de",
+        "anchor_phrase": "SBIMIS",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2023-08::p048::c001"],
+          "B": ["wb-diemlai-2023-08::p048::c001"],
+          "C": ["wb-diemlai-2023-08::p048::c001"]
+        },
+        "char_lens": { "A": [1400], "B": [1452], "C": [1452] },
+        "reasons": {
+          "A": "Mở đầu bằng phần cuối mục trước thiếu tiêu đề mục, đoạn SBIMIS hiểu được ý chính nhưng bị cắt giữa từ ở cuối chunk ('hệ thống riêng c').",
+          "B": "Mở đầu đúng tiêu đề bullet 'z Khâu theo dõi và đánh giá hậu kiểm dự án:' và giữ trọn vẹn đến dấu chấm cuối cùng ('...bài học rút ra.').",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L05",
+        "document_id": "wb-diemlai-2024-08",
+        "page": 15,
+        "section": "tong_luoc",
+        "anchor_phrase": "Ngân hàng Thương mại Cổ phần Sài Gòn (SCB)",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2024-08::p015::c001"],
+          "B": ["wb-diemlai-2024-08::p015::c001"],
+          "C": ["wb-diemlai-2024-08::p015::c001"]
+        },
+        "char_lens": { "A": [1399], "B": [1053], "C": [1053] },
+        "reasons": {
+          "A": "Giữ được đoạn giữa về nợ xấu SCB (4,6%) và VAMC (7,9%), nhưng đầu chunk cụt chủ thể ('thấp hơn so với tốc độ tăng trưởng...') và cuối chunk cắt dở ('Tuy nhiên, lượng').",
+          "B": "Chứa trọn vẹn đúng một đoạn văn hoàn chỉnh về chất lượng tài sản ngân hàng, nợ xấu SCB và Q1-2024, không lẫn mảnh câu dư thừa ở hai đầu.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L06",
+        "document_id": "wb-diemlai-2024-08",
+        "page": 28,
+        "section": "kinh_te_vi_mo",
+        "anchor_phrase": "làm dòng vốn ròng phi chính thức ra nước ngoài tăng lên",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2024-08::p028::c000"],
+          "B": ["wb-diemlai-2024-08::p028::c001"],
+          "C": ["wb-diemlai-2024-08::p028::c001"]
+        },
+        "char_lens": { "A": [1400], "B": [1269], "C": [1269] },
+        "reasons": {
+          "A": "Khoảng nửa đầu bị chiếm bởi nhãn trục biểu đồ Hình 1.18-1.19 rời rạc; phần văn bản chênh lệch lãi suất bị cắt ngay dấu phẩy giữa câu ('cuối tháng 3/2024,'), mất toàn bộ kết luận vàng và 'Lỗi và sai sót' (7,9% GDP).",
+          "B": "Tách sạch nhiễu nhãn biểu đồ sang c000 và giữ trọn vẹn 100% đoạn phân tích chênh lệch lãi suất, cầu vàng tăng 28,6%, và khoản mục 'Lỗi và sai sót'.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L07",
+        "document_id": "wb-diemlai-2024-08",
+        "page": 46,
+        "section": "chuyen_de",
+        "anchor_phrase": "nhà đầu tư nội ngành về trái phiếu Chính phủ",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2024-08::p046::c000"],
+          "B": ["wb-diemlai-2024-08::p046::c000"],
+          "C": ["wb-diemlai-2024-08::p046::c000"]
+        },
+        "char_lens": { "A": [1400], "B": [1336], "C": [1336] },
+        "reasons": {
+          "A": "Đoạn đầu về BHXH được giữ nguyên, nhưng chunk lấy kèm đầu đoạn tiếp theo rồi cắt giữa từ ('khi nhiều mã t').",
+          "B": "Dừng gọn ngay cuối đoạn 1 ('...của thị trường trái phiếu Chính phủ.'), giữ trọn lập luận về nhà đầu tư mua-nắm giữ BHXH không có mảnh cắt dư.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L08",
+        "document_id": "wb-diemlai-2025-09",
+        "page": 12,
+        "section": "tong_luoc",
+        "anchor_phrase": "8,2 triệu VND",
+        "scores": { "A": 1, "B": 1, "C": 1 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2025-09::p012::c001"],
+          "B": ["wb-diemlai-2025-09::p012::c000"],
+          "C": ["wb-diemlai-2025-09::p012::c000"]
+        },
+        "char_lens": { "A": [1399], "B": [1636], "C": [1636] },
+        "reasons": {
+          "A": "Mở đầu cụt chữ ('c trong năm 2025.'), chú thích 2 và 3 chen giữa '(316' và 'US$)', giữ được ý tỷ lệ tiết kiệm 37,2% nhưng cuối chunk cắt dở câu đóng góp GDP ('đóng góp đang... đóng').",
+          "B": "Hạn chế thực tế do PDF layout: c000 kết thúc tại '8,2 triệu VND (316' + chú thích 2 vì hai chú thích chân cột chen giữa phần mở ngoặc '(316' và 'US$)' làm đoạn bị tách, đẩy phần tỷ lệ tiết kiệm 37,2% sang c001.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L09",
+        "document_id": "wb-diemlai-2025-09",
+        "page": 59,
+        "section": "chuyen_de",
+        "anchor_phrase": "ba cụm ĐMST quốc gia",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2025-09::p059::c001"],
+          "B": ["wb-diemlai-2025-09::p059::c001"],
+          "C": ["wb-diemlai-2025-09::p059::c001"]
+        },
+        "char_lens": { "A": [1399], "B": [1480], "C": [1480] },
+        "reasons": {
+          "A": "Dù thứ tự đọc 2 cột đã đúng (không trộn sidebar), đầu chunk bị cắt cụt ('động cao là rào cản...') và cuối chunk cắt giữa từ đúng ở câu kết đoạn ba cụm ĐMST ('cùng với sự gắn kết gi').",
+          "B": "Giữ nguyên chú thích Hình 2.13 và trọn vẹn 100% đoạn phân tích ba cụm ĐMST quốc gia thiếu cơ sở GDĐH 'mỏ neo' đến hết câu ('...tăng trưởng kinh tế.'); lưu ý nhỏ: câu cuối của trang 59 ('...nhân tài nghiên cứu') dừng theo ranh giới trang PDF gốc.",
+          "C": "Chunk giống hệt B."
+        }
+      },
+      {
+        "loc_id": "L10",
+        "document_id": "wb-diemlai-2025-09",
+        "page": 66,
+        "section": "chuyen_de",
+        "anchor_phrase": "từ phòng thí nghiệm đến nhà máy",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "chunk_ids": {
+          "A": ["wb-diemlai-2025-09::p066::c000"],
+          "B": ["wb-diemlai-2025-09::p066::c000"],
+          "C": ["wb-diemlai-2025-09::p066::c000"]
+        },
+        "char_lens": { "A": [1400], "B": [1169], "C": [1169] },
+        "reasons": {
+          "A": "Giữ được hai đoạn bán dẫn đầu nhưng lấn sang đoạn công nghệ sinh học rồi cắt giữa từ ('trong khi c').",
+          "B": "Dừng sạch sẽ ngay cuối đoạn hai về phòng sạch và dây chuyền thí điểm bán dẫn ('...trong nước.'), tự hiểu hoàn toàn và không có mảnh cắt dư.",
+          "C": "Chunk giống hệt B."
+        }
+      }
+    ],
+    "summary": {
+      "A": { "count": 10, "dist": { "0": 1, "1": 9, "2": 0 }, "mean_score": 0.9 },
+      "B": { "count": 10, "dist": { "0": 0, "1": 3, "2": 7 }, "mean_score": 1.7 },
+      "C": { "count": 10, "dist": { "0": 0, "1": 3, "2": 7 }, "mean_score": 1.7 }
+    }
+  },
+  "metadata_usefulness": {
+    "test_questions_audited": ["q16", "q17", "q18", "q19", "q20"],
+    "hits_per_strategy": 15,
+    "verified_fields": [
+      "document_id",
+      "source",
+      "page",
+      "year",
+      "edition",
+      "language",
+      "doc_title",
+      "section",
+      "section_title",
+      "chunking",
+      "chunk_index",
+      "char_len"
+    ],
+    "completeness_and_accuracy": {
+      "A": { "valid": 15, "total": 15, "rate": "15/15 (100%)", "errors": 0, "note": "Tất cả 15 bản ghi trong top-3 của 5 câu test khớp chính xác source_id, đường dẫn file, trang PDF vật lý 1-based, year, edition, section trong manifest.json và char_len thực tế; có thêm char_start/char_end." },
+      "B": { "valid": 15, "total": 15, "rate": "15/15 (100%)", "errors": 0, "note": "Tất cả 15 bản ghi đủ và khớp manifest.json và char_len thực tế." },
+      "C": { "valid": 15, "total": 15, "rate": "15/15 (100%)", "errors": 0, "note": "Tất cả 15 bản ghi đủ và khớp manifest.json và char_len thực tế; đồng thời các trường year/section của toàn bộ 6 hit trong q19-q20 khớp tuyệt đối điều kiện filter." }
+    },
+    "filter_compliance": {
+      "test": {
+        "A": "N/A (không áp dụng metadata filter trên 2 câu filter test q19, q20; thực tế top-3 ở q19 chứa 1 hit sai section kinh_te_vi_mo của 2024 và 1 hit sai năm 2025; ở q20 chứa 2 hit sai năm 2024)",
+        "B": "N/A (không áp dụng metadata filter; ở q19 rank 1 sai section [p.30], rank 2 sai năm [2025-09 p.28]; ở q20 rank 1 và rank 2 đều sai năm [2024-08 p.14 và p.28])",
+        "C": "2/2 (100%)"
+      },
+      "dev": {
+        "A": "N/A (không áp dụng filter cho q13, q14, q15)",
+        "B": "N/A (không áp dụng filter cho q13, q14, q15)",
+        "C": "3/3 (100%)"
+      }
+    },
+    "verified_benefits": [
+      "Truy vết nguồn (source, page, doc_title, section_title) xác minh chính xác trang và báo cáo cho cả 45 hit test.",
+      "Lọc trước bằng year và section (parameterized SQL WHERE trên bảng document_chunks) giải quyết trực diện nhiễu xuyên năm và trùng lặp giữa Tóm lược (tong_luoc) với Chương 1 (kinh_te_vi_mo): đưa q19 (Rank 3 -> Rank 1) và q20 (Rank 3 -> Rank 1) trên tập test, cùng q15 (Rank 2 -> Rank 1) trên tập dev."
+    ],
+    "verified_limitations": [
+      "Section chỉ có 3 mức thô (tong_luoc, kinh_te_vi_mo, chuyen_de), chưa phân biệt được chủ đề con trong cùng chương dài (ví dụ thị trường trái phiếu vs cổ phiếu) hoặc phân tách text hộp/biểu đồ khỏi văn bản chính.",
+      "Page là số trang vật lý PDF 1-based; vẫn có sai lệch nhỏ nếu trang cuối của một chương lẫn tiêu đề chương kế tiếp.",
+      "Chiến lược C phụ thuộc vào filter có sẵn từ người dùng/ngữ cảnh trước truy xuất; nếu không có tầng trích xuất filter tự động hoặc nhập nhầm năm/chương, pre-filter cứng sẽ loại bỏ bằng chứng đúng mà không có fallback."
+    ]
+  },
+  "grounding_quality": {
+    "note": "Chỉ đánh giá chất lượng bằng chứng (evidence retrieval) trong top-3 để trả lời và truy nguồn; không chấm câu trả lời sinh bởi LLM.",
+    "scale_definition": {
+      "0": "Không có bằng chứng liên quan trong top-3",
+      "1": "Có bằng chứng nhưng thiếu điều kiện/ngữ cảnh cần thiết, bị cắt ý quan trọng hoặc lẫn nhiễu sai năm/sai phạm vi ở rank cao",
+      "2": "Đủ bằng chứng và ngữ cảnh trong top-3 để trả lời đầy đủ và truy nguồn chính xác"
+    },
+    "samples": [
+      {
+        "qid": "q16",
+        "question_type": "direct",
+        "gold": "wb-diemlai-2023-08 p.53 (alt p.17)",
+        "scores": { "A": 1, "B": 2, "C": 2 },
+        "reasons": {
+          "A": "Rank 1 (p017::c002, score=0.758256) cắt mất câu mở đầu trụ cột 1 ('cải thiện chất lượng đầu vào... khâu chuẩn bị dự án') và cụt cuối chunk ('về hạc'); Rank 2 (p053::c000) cũng bắt đầu sau trụ cột 1 và cụt 'từng bướ'. Evidence Hit@3=True nhưng thiếu trọn trụ cột chuẩn bị dự án.",
+          "B": "Rank 1 (p017::c002, score=0.744021) giữ đầy đủ cả 3 trụ cột từ 'chất lượng đầu vào/chuẩn bị dự án', 'bóc tách GPMB/hậu kiểm', đến 'quản lý tài sản công'; Rank 2 (p053::c000) hoàn chỉnh tới 'khấu hao và hao mòn'.",
+          "C": "Kết quả và chất lượng bằng chứng giống hệt B."
+        }
+      },
+      {
+        "qid": "q17",
+        "question_type": "paraphrased",
+        "gold": "wb-diemlai-2024-08 p.49",
+        "scores": { "A": 2, "B": 2, "C": 2 },
+        "reasons": {
+          "A": "Tuy Rank 1 (p049::c001, score=0.788821) cắt đầu câu ('niêm yết hoặc đăng ký giao dịch...'), Rank 2 (p049::c000, score=0.745479) bù lại phần đầu ('1.632 doanh nghiệp niêm yết...'). Hợp top-3 đủ dữ kiện cung (quy mô nhỏ, room ngoại) và cầu (89% cá nhân, hành vi bầy đàn) cùng trang p.49.",
+          "B": "Ngay Rank 1 (p049::c001, score=0.801638) đã chứa trọn vẹn từ mở đoạn 'Thị trường cổ phiếu của Việt Nam thuộc dạng biến động nhất...' tới hết nguyên nhân cung-cầu.",
+          "C": "Kết quả giống hệt B."
+        }
+      },
+      {
+        "qid": "q18",
+        "question_type": "conditional_exception",
+        "gold": "wb-diemlai-2025-09 p.66",
+        "scores": { "A": 2, "B": 2, "C": 2 },
+        "reasons": {
+          "A": "Rank 1 (p066::c000, score=0.835567) chứa trọn vẹn hai đoạn về gửi nguyên mẫu ra Đài Loan/Hàn Quốc (mất 6-10 tháng, tốn kém) và thiếu phòng sạch; Rank 3 bổ sung phần còn lại của trang 66.",
+          "B": "Rank 1 (p066::c000, score=0.846503) cô đọng sạch sẽ đúng hai đoạn vi mạch bán dẫn không có phần đuôi bị cắt; Rank 3 bổ sung công nghệ sinh học.",
+          "C": "Kết quả giống hệt B."
+        }
+      },
+      {
+        "qid": "q19",
+        "question_type": "metadata_filter",
+        "gold": "wb-diemlai-2024-08 p.15 (tong_luoc)",
+        "scores": { "A": 1, "B": 1, "C": 2 },
+        "reasons": {
+          "A": "Evidence gold nằm ở Rank 2 (2024-08 p.15), nhưng Rank 1 là 2024-08 p.30 (Chương 1, có lỗi in 'trong năm 2025' ở báo cáo gốc và số cộng dồn +1,5 điểm %) còn Rank 3 lại kéo vào năm 2025 (2025-09 p.28, CPI 3,6%). Top-3 bị pha trộn niên độ và chương.",
+          "B": "Không filter khiến Rank 1 (2024-08 p.30, sai section) và Rank 2 (2025-09 p.28, sai năm 2025) đứng trên bản ghi đúng gold (2024-08 p.15) ở Rank 3, dễ làm tổng hợp sai năm hoặc sai phần.",
+          "C": "Filter {year: 2024, section: 'tong_luoc'} đưa đúng gold (2024-08::p015::c000) lên Rank 1; Rank 2-3 đều cùng niên độ 2024 và Tóm lược, hoàn toàn nhất quán."
+        }
+      },
+      {
+        "qid": "q20",
+        "question_type": "metadata_filter",
+        "gold": "wb-diemlai-2025-09 p.34",
+        "scores": { "A": 1, "B": 1, "C": 2 },
+        "reasons": {
+          "A": "Rank 1 (2025-09 p.34, score=0.757408) có bằng chứng 2025 đúng (hạ tỷ giá trung tâm 3,1%, rút 1 tỷ US$, dự trữ 79,2 -> 78,1 tỷ US$), nhưng Rank 2 (2024-08 p.14, score=0.751042) và Rank 3 (2024-08 p.28) chèn số liệu năm 2024 (hạ 1,2%, dự trữ 90 -> 83-84 tỷ US$) ở điểm tương đồng gần ngang ngửa, tạo rủi ro trộn lẫn niên độ.",
+          "B": "Cả Rank 1 (2024-08 p.14, score=0.754917) và Rank 2 (2024-08 p.28, score=0.753335) đều thuộc năm 2024 (sai niên độ yêu cầu), đẩy bằng chứng 2025 duy nhất (2025-09 p.34, score=0.745823) xuống tận Rank 3.",
+          "C": "Filter {year: 2025} loại bỏ hoàn toàn nhiễu 2024: Rank 1 là p.34 (trọn đoạn can thiệp tỷ giá & dự trữ), Rank 2 là p.33 (bối cảnh VND giảm 2,8% trước đó), Rank 3 là p.31 (khung chính sách 2024-2025)."
+        }
+      }
+    ],
+    "summary": {
+      "A": { "count": 5, "dist": { "0": 0, "1": 3, "2": 2 }, "mean_score": 1.4 },
+      "B": { "count": 5, "dist": { "0": 0, "1": 2, "2": 3 }, "mean_score": 1.6 },
+      "C": { "count": 5, "dist": { "0": 0, "1": 0, "2": 5 }, "mean_score": 2.0 }
+    }
+  }
+}

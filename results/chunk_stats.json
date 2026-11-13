@@ -1,0 +1,45 @@
+{
+  "A": {
+    "chunking": "fixed_size",
+    "chunk_size": 1400,
+    "overlap": 150,
+    "count": 391,
+    "total_chars": 460633,
+    "min_chars": 160,
+    "p25_chars": 1062,
+    "median_chars": 1399.0,
+    "mean_chars": 1178.1,
+    "p75_chars": 1400,
+    "p95_chars": 1400,
+    "max_chars": 1400,
+    "short_under_120": 0
+  },
+  "B": {
+    "chunking": "by_paragraph",
+    "max_size": 1650,
+    "count": 355,
+    "total_chars": 423725,
+    "min_chars": 143,
+    "p25_chars": 962,
+    "median_chars": 1256.0,
+    "mean_chars": 1193.6,
+    "p75_chars": 1497,
+    "p95_chars": 1628,
+    "max_chars": 1725,
+    "short_under_120": 0
+  },
+  "C": {
+    "chunking": "by_paragraph (identical to B)",
+    "max_size": 1650,
+    "count": 355,
+    "total_chars": 423725,
+    "min_chars": 143,
+    "p25_chars": 962,
+    "median_chars": 1256.0,
+    "mean_chars": 1193.6,
+    "p75_chars": 1497,
+    "p95_chars": 1628,
+    "max_chars": 1725,
+    "short_under_120": 0
+  }
+}

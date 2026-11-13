@@ -1,0 +1,152 @@
+{
+  "corpus_name": "Ngân hàng Thế giới — Chuỗi Báo cáo Điểm lại Kinh tế Việt Nam (2023–2025)",
+  "language": "vi",
+  "topic": "Diễn biến kinh tế vĩ mô Việt Nam và các chuyên đề cải cách trọng tâm (Đầu tư công 2023, Thị trường vốn 2024, Nhân tài công nghệ cao 2025)",
+  "minimum_required_content_pages": 30,
+  "total_physical_pages": 196,
+  "total_valid_content_pages": 147,
+  "page_counting_rule": "Đếm theo số trang PDF vật lý (1-indexed) có nội dung phân tích/báo cáo chính thức. Loại bỏ trang bìa, trang trống (0 ký tự), trang bản quyền, mục lục, danh mục hình/bảng, bảng từ viết tắt, lời cảm ơn, trang ngăn chương/mục chỉ có tiêu đề, trang tài liệu tham khảo (THAM KHẢO), thông tin in ấn và bìa sau.",
+  "reproduction_instructions": "Chạy script hoặc tải trực tiếp 3 tệp PDF tiếng Việt công khai từ World Bank Documents / Open Knowledge Repository theo từng URL bên dưới vào thư mục starter/data/ và kiểm tra khớp SHA-256.",
+  "documents": [
+    {
+      "source_id": "wb-diemlai-2023-08",
+      "title": "Báo cáo Điểm lại, tháng 8/2023: Để đầu tư công thúc đẩy tăng trưởng",
+      "local_path": "starter/data/wb_diemlai_2023_08.pdf",
+      "source_url": "https://documents1.worldbank.org/curated/en/099417508092322367/pdf/IDU0f9738bf205db7048cc08865045b2bb639b10.pdf",
+      "okr_item_url": "https://openknowledge.worldbank.org/entities/publication/b3c3c978-96a0-48bd-8573-04d5c9a71f7f",
+      "worldbank_guid": "099417508092322367",
+      "license_or_permission": "CC BY-NC 3.0 IGO (https://creativecommons.org/licenses/by-nc/3.0/igo); Public Disclosure Authorized",
+      "accessed_at": "2026-11-13",
+      "published_date": "2023-08-10",
+      "snapshot_version": "Final (2023-08-09)",
+      "sha256": "32B55097424CB40FDD79C1DBDF9A87C592F04B43DB36BACA82E3D35D38009FC1",
+      "file_size_bytes": 15746192,
+      "year": 2023,
+      "edition": "2023-08",
+      "language": "vi",
+      "physical_page_count": 58,
+      "valid_content_page_count": 41,
+      "included_pages": [
+        11, 12, 13, 14, 15, 16, 17, 18,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53
+      ],
+      "section_ranges": [
+        {"section": "tong_luoc", "section_title": "Tổng quan", "start_page": 11, "end_page": 18},
+        {"section": "kinh_te_vi_mo", "section_title": "Chương 1. Diễn biến và triển vọng kinh tế", "start_page": 20, "end_page": 38},
+        {"section": "chuyen_de", "section_title": "Chương 2. Để đầu tư công thúc đẩy tăng trưởng", "start_page": 40, "end_page": 53}
+      ],
+      "excluded_pages": {
+        "1": "Bìa trước",
+        "2": "Trang trống (0 ký tự)",
+        "3": "Trang tên báo cáo",
+        "4": "Thông tin bản quyền và miễn trừ trách nhiệm",
+        "5": "Mục lục",
+        "6": "Danh mục hình",
+        "7": "Danh mục bảng và từ viết tắt",
+        "8": "Danh mục từ viết tắt",
+        "9": "Lời cảm ơn",
+        "10": "Trang ngăn mục Tổng quan",
+        "19": "Trang ngăn Chương 1",
+        "39": "Trang ngăn Chương 2",
+        "54": "Tài liệu tham khảo (THAM KHẢO)",
+        "55": "Tài liệu tham khảo (tiếp)",
+        "56": "Thông tin xuất bản/in ấn",
+        "57": "Trang trống (0 ký tự)",
+        "58": "Bìa sau"
+      }
+    },
+    {
+      "source_id": "wb-diemlai-2024-08",
+      "title": "Báo cáo Điểm lại, tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn",
+      "local_path": "starter/data/wb_diemlai_2024_08.pdf",
+      "source_url": "https://documents1.worldbank.org/curated/en/099152108232435513/pdf/IDU100472f8411adf1466c1968819d150a0879da.pdf",
+      "worldbank_guid": "099152108232435513",
+      "license_or_permission": "CC BY-NC 3.0 IGO (https://creativecommons.org/licenses/by-nc/3.0/igo); Public Disclosure Authorized",
+      "accessed_at": "2026-11-13",
+      "published_date": "2024-08-26",
+      "snapshot_version": "Final (2024-08-23)",
+      "sha256": "3B4CEE8A69F8EF9A421A27F3533D9E408E1079E585D317256B02CBCA805679EC",
+      "file_size_bytes": 3825650,
+      "year": 2024,
+      "edition": "2024-08",
+      "language": "vi",
+      "physical_page_count": 64,
+      "valid_content_page_count": 47,
+      "included_pages": [
+        13, 14, 15, 16, 17, 18,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+        39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61
+      ],
+      "section_ranges": [
+        {"section": "tong_luoc", "section_title": "Tổng quan", "start_page": 13, "end_page": 18},
+        {"section": "kinh_te_vi_mo", "section_title": "Chương 1. Diễn biến kinh tế và triển vọng", "start_page": 20, "end_page": 37},
+        {"section": "chuyen_de", "section_title": "Chương 2. Vươn tới tầm cao mới trên thị trường vốn", "start_page": 39, "end_page": 61}
+      ],
+      "excluded_pages": {
+        "1": "Bìa trước",
+        "2": "Trang trống (0 ký tự)",
+        "3": "Trang tên báo cáo",
+        "4": "Thông tin bản quyền và miễn trừ trách nhiệm",
+        "5": "Mục lục",
+        "6": "Mục lục (tiếp)",
+        "7": "Danh mục hình",
+        "8": "Danh mục bảng",
+        "9": "Danh mục từ viết tắt",
+        "10": "Danh mục từ viết tắt (tiếp)",
+        "11": "Lời cám ơn",
+        "12": "Trang ngăn mục Tổng quan",
+        "19": "Trang ngăn Chương 1",
+        "38": "Trang ngăn Chương 2",
+        "62": "Trang trống (0 ký tự)",
+        "63": "Trang trống (0 ký tự)",
+        "64": "Bìa sau"
+      }
+    },
+    {
+      "source_id": "wb-diemlai-2025-09",
+      "title": "Điểm lại tháng 9/2025: Cập nhật tình hình kinh tế Việt Nam — Chuyên đề: Bứt tốc phát triển nhân tài công nghệ cao của Việt Nam",
+      "local_path": "starter/data/wb_diemlai_2025_09.pdf",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/37d2b601-35f0-4aee-a4f4-aca47dc95481/download",
+      "worldbank_guid": "099142309042522486",
+      "license_or_permission": "CC BY-NC 3.0 IGO (https://creativecommons.org/licenses/by-nc/3.0/igo); Public Disclosure Authorized",
+      "accessed_at": "2026-11-13",
+      "published_date": "2025-09-04",
+      "snapshot_version": "Final (2025-09-04)",
+      "sha256": "50A3DE0D569FC17D74480A19A41802455F69A0EBC0CE32104405A88A2B2B45D3",
+      "file_size_bytes": 7341911,
+      "year": 2025,
+      "edition": "2025-09",
+      "language": "vi",
+      "physical_page_count": 74,
+      "valid_content_page_count": 59,
+      "included_pages": [
+        11, 12, 13, 14, 15, 16, 17,
+        19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+        45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71
+      ],
+      "section_ranges": [
+        {"section": "tong_luoc", "section_title": "Tóm lược tổng quan", "start_page": 11, "end_page": 17},
+        {"section": "kinh_te_vi_mo", "section_title": "Chương 1. Diễn biến và triển vọng kinh tế", "start_page": 19, "end_page": 43},
+        {"section": "chuyen_de", "section_title": "Chương 2. Bứt tốc phát triển nhân tài công nghệ cao của Việt Nam", "start_page": 45, "end_page": 71}
+      ],
+      "excluded_pages": {
+        "1": "Bìa trước",
+        "2": "Trang trống (0 ký tự)",
+        "3": "Trang tên báo cáo",
+        "4": "Thông tin bản quyền và miễn trừ trách nhiệm",
+        "5": "Mục lục",
+        "6": "Danh mục hình",
+        "7": "Danh mục bảng",
+        "8": "Danh mục từ viết tắt",
+        "9": "Danh mục từ viết tắt (tiếp)",
+        "10": "Lời cảm ơn",
+        "18": "Trang ngăn Chương 1",
+        "44": "Trang ngăn Chương 2",
+        "72": "Trang trống (0 ký tự)",
+        "73": "Trang trống (0 ký tự)",
+        "74": "Bìa sau"
+      }
+    }
+  ]
+}

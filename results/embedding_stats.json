@@ -1,0 +1,38 @@
+{
+  "model": "gemini-embedding-001",
+  "dimensions": 768,
+  "l2_normalized": true,
+  "postgres_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector_version": "0.8.7",
+  "search_mode": "exact_cosine_distance (<=>)",
+  "total_api_calls": 39,
+  "total_tokens": 284627,
+  "tokens_A_documents": 147698,
+  "calls_A_documents": 20,
+  "tokens_BC_shared_documents": 136044,
+  "calls_BC_shared_documents": 18,
+  "tokens_queries": 885,
+  "calls_queries": 1,
+  "embed_seconds": 67.8,
+  "total_pipeline_seconds": 864.73,
+  "upsert_results": {
+    "A": {
+      "upserted": 391,
+      "deleted_obsolete": 0,
+      "total_strategy_rows": 391,
+      "pruned_missing_doc_rows": 0
+    },
+    "B": {
+      "upserted": 355,
+      "deleted_obsolete": 0,
+      "total_strategy_rows": 355,
+      "pruned_missing_doc_rows": 0
+    },
+    "C": {
+      "upserted": 355,
+      "deleted_obsolete": 0,
+      "total_strategy_rows": 355,
+      "pruned_missing_doc_rows": 0
+    }
+  }
+}
